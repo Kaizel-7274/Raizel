@@ -4,7 +4,6 @@ import Pizza from "./Pizza";
 const intl = new Intl.NumberFormat("en-UK", {
   style: "currency",
   currency: "KES",
-  minimumFractionDigits: 0,
 });
 
 export default function Order() {
@@ -12,6 +11,23 @@ export default function Order() {
   const [pizzaType, setPizzaType] = useState("Pepperoni");
   const [pizzaSize, setPizzaSize] = useState("M");
   const [loading, setLoading] = useState(true);
+
+  let price, selectedPizza;
+
+  if (!loading) {
+    selectedPizza = pizzaTypes.find((pizza) => pizza.Type === pizzaid);
+  }
+
+  async function fetchPizzaTypes() {
+    const pizzaRes = await fetch("/api/pizzas");
+    const pizzaJson = await pizzaRes.json();
+    setPizzaTypes(pizzaJson);
+    setLoading(false);
+  }
+
+  useEffect(() => {
+    fetchSPizzaTypes();
+  }, []);
 
   return (
     <div className="order">
@@ -25,9 +41,11 @@ export default function Order() {
               name="pizzaType"
               value={pizzaType}
             >
-              <option value="Pepperoni"> The Pepperoni Pizza</option>
-              <option value="Hawaiian">The Hawaiian Pizza</option>
-              <option value="The R41Z3L Special">R41Z3L Special Pizza</option>
+              {pizzaTypes.map((pizza) => (
+                <option key={pizza.id} value={pizza.id}>
+                  {pizza.name}
+                </option>
+              ))}
             </select>
           </div>
           <div>
