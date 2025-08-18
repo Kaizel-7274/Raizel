@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 import Pizza from "./Pizza";
 
 const intl = new Intl.NumberFormat("en-UK", {
@@ -13,12 +13,12 @@ export default function Order() {
   const [loading, setLoading] = useState(true);
 
   let price, selectedPizza;
-
   if (!loading) {
-    selectedPizza = pizzaTypes.find((pizza) => pizza.Type === pizzaid);
+    selectedPizza = pizzaTypes.find((pizza) => pizzaType === pizza.id);
   }
 
-  async function fetchPizzaTypes() {
+  async function fetchPizzasTypes() {
+    await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate network delay
     const pizzaRes = await fetch("/api/pizzas");
     const pizzaJson = await pizzaRes.json();
     setPizzaTypes(pizzaJson);
@@ -26,7 +26,7 @@ export default function Order() {
   }
 
   useEffect(() => {
-    fetchSPizzaTypes();
+    fetchPizzasTypes();
   }, []);
 
   return (
@@ -89,9 +89,9 @@ export default function Order() {
           <button type="submit">Add to Cart</button>
           <div className="order-pizza">
             <Pizza
-              name="Pepperoni Pizza"
-              description="A classic pizza topped with pepperoni slices."
-              image="/public/pizzas/pepperoni.webp"
+              name={selectedPizza.name}
+              description={selectedPizza.description}
+              image={selectedPizza.image}
             />
             <p>KES 4,500</p>
           </div>
