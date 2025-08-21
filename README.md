@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm R41Z3L</h1>
 <h3 align="center">A passionate beginner web developer</h3>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Beginner+Web+Developer;Love+problem+solving+machines)](https://git.io/typing-svg)
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kaizel-7274&label=Profile%20views&color=0e75b6&style=flat" alt="kaizel-7274" /> </p>
 
 - 🔭 I’m currently working on **a project called Raizel(Pizza order Website)**
