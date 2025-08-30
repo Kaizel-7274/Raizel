@@ -1,0 +1,286 @@
+{
+  "Objects": [
+    {
+      "id": 1,
+      "name": "BBQ Chicken",
+      "image": "bbq_ckn.webp",
+      "ingredients": "[BBQ sauce, grilled chicken, red onion, tomato, green pepper, black olives, mozzarella]",
+      "price": 10.5
+    },
+    {
+      "id": 2,
+      "name": "Big Meat",
+      "image": "big_meat.webp",
+      "ingredients": "[pepperoni, bacon, ground beef, mozzarella, tomato sauce]",
+      "price": 10.5
+    },
+    {
+      "id": 3,
+      "name": "Brie & Prosciutto",
+      "image": "brie_carre.webp",
+      "ingredients": "[brie cheese, prosciutto, pear slices, red onion, thyme, mozzarella, white sauce]",
+      "price": 11.0
+    },
+    {
+      "id": 4,
+      "name": "Calabrese",
+      "image": "calabrese.webp",
+      "ingredients": "[pepperoni, cherry tomato, red onion, green chili, green olives, mozzarella, tomato sauce]",
+      "price": 10.0
+    },
+    {
+      "id": 5,
+      "name": "California Chicken",
+      "image": "cali_ckn.webp",
+      "ingredients": "[grilled chicken, artichoke hearts, spinach, jalapeño, mozzarella, white sauce]",
+      "price": 10.5
+    },
+    {
+      "id": 6,
+      "name": "Chicken Alfredo",
+      "image": "ckn_alfredo.webp",
+      "ingredients": "[grilled chicken, red bell pepper, mushrooms, red onion, mozzarella, alfredo sauce]",
+      "price": 10.5
+    },
+    {
+      "id": 7,
+      "name": "Chicken Pesto",
+      "image": "ckn_pesto.webp",
+      "ingredients": "[grilled chicken, pesto sauce, tomato, red bell pepper, spinach, mozzarella]",
+      "price": 10.5
+    },
+    {
+      "id": 8,
+      "name": "Classic Deluxe",
+      "image": "classic_dlx.webp",
+      "ingredients": "[pepperoni, bacon, red onion, mushroom, red pepper, mozzarella, tomato sauce]",
+      "price": 10.0
+    },
+    {
+      "id": 9,
+      "name": "Five Cheese",
+      "image": "five_cheese.webp",
+      "ingredients": "[mozzarella, blue cheese, parmesan, provolone, gorgonzola, white sauce]",
+      "price": 9.5
+    },
+    {
+      "id": 10,
+      "name": "Four Cheese",
+      "image": "four_cheese.webp",
+      "ingredients": "[mozzarella, blue cheese, ricotta, parmesan, tomato sauce]",
+      "price": 9.0
+    },
+    {
+      "id": 11,
+      "name": "Four Cheese",
+      "image": "four_cheese.webp",
+      "ingredients": "[mozzarella, blue cheese, ricotta, parmesan, tomato sauce]",
+      "price": 9.0
+    },
+    {
+      "id": 12,
+      "name": "Hawaiian",
+      "image": "hawaiian.webp",
+      "ingredients": ["Ham", "Pineapple", "Mozzarella", "Tomato Sauce"],
+      "price": 10.0
+    },
+    {
+      "id": 13,
+      "name": "Italian Capocollo",
+      "image": "ital_cpcllo.webp",
+      "ingredients": [
+        "Capocollo",
+        "Cherry Tomatoes",
+        "Ricotta",
+        "Basil",
+        "Garlic"
+      ],
+      "price": 10.5
+    },
+    {
+      "id": 14,
+      "name": "Italian Supreme",
+      "image": "ital_supr.webp",
+      "ingredients": [
+        "Pepperoni",
+        "Red Onions",
+        "Tomatoes",
+        "Green Olives",
+        "Mozzarella"
+      ],
+      "price": 10.5
+    },
+    {
+      "id": 15,
+      "name": "Italian Veggie",
+      "ingredients": [
+        "Grilled Zucchini",
+        "Grilled Eggplant",
+        "Artichokes",
+        "Red Onion",
+        "Pesto",
+        "Tomatoes"
+      ],
+      "image": "ital_veggie.webp",
+      "price": 9.5
+    },
+    {
+      "id": 16,
+      "name": "Mediterraneo",
+      "ingredients": [
+        "Spinach",
+        "Sun-dried Tomatoes",
+        "Kalamata Olives",
+        "Artichokes",
+        "Red Onion",
+        "Feta"
+      ],
+      "image": "mediterraneo.webp",
+      "price": 10.0
+    },
+    {
+      "id": 17,
+      "name": "Mexicana",
+      "ingredients": [
+        "Jalapeños",
+        "Red Onion",
+        "Cherry Tomatoes",
+        "Corn",
+        "Cilantro",
+        "Tomato Sauce"
+      ],
+      "image": "mexicana.webp",
+      "price": 9.5
+    },
+    {
+      "id": 18,
+      "name": "Napolitana",
+      "ingredients": [
+        "Anchovies",
+        "Cherry Tomatoes",
+        "Green Olives",
+        "Red Onion",
+        "Oregano",
+        "Tomato Sauce"
+      ],
+      "image": "napolitana.webp",
+      "price": 10.0
+    },
+    {
+      "id": 19,
+      "name": "Pepperoni Mushroom Pepper",
+      "ingredients": [
+        "Pepperoni",
+        "Mushrooms",
+        "Green Bell Peppers",
+        "Black Olives",
+        "Mozzarella"
+      ],
+      "image": "pep_msh_pep.webp",
+      "price": 10.0
+    },
+    {
+      "id": 20,
+      "name": "Classic Pepperoni",
+      "ingredients": ["Pepperoni", "Mozzarella", "Tomato Sauce"],
+      "image": "pepperoni.webp",
+      "price": 9.5
+    },
+    {
+      "id": 21,
+      "name": "Pepperoni Salami Pizza",
+      "filename": "peppr_salami.webp",
+      "description": "A classic pizza topped with pepperoni, salami, cherry tomatoes, red chili, and fresh parsley."
+    },
+    {
+      "id": 22,
+      "name": "Prosciutto Arugula Pizza",
+      "filename": "prsc_argla.webp",
+      "description": "Delicious pizza featuring thinly sliced prosciutto, fresh arugula, mozzarella, and a tomato base."
+    },
+    {
+      "id": 23,
+      "name": "Sicilian Pizza",
+      "filename": "sicilian.webp",
+      "description": "Sicilian style pizza with pepperoni, olives, red onion, and cherry tomatoes."
+    },
+    {
+      "id": 24,
+      "name": "Soppressata Pizza",
+      "filename": "soppressata.webp",
+      "description": "Flavorful pizza topped with soppressata, mushrooms, and a creamy white cheese base."
+    },
+    {
+      "id": 25,
+      "name": "Southwest Chicken Pizza",
+      "filename": "southw_ckn.webp",
+      "description": "Spicy southwest chicken pizza with grilled chicken, red onion, jalapeño, corn, and cherry tomatoes."
+    },
+    {
+      "id": 26,
+      "name": "Spicy Italian Pizza",
+      "filename": "spicy_ital.webp",
+      "description": "A bold pizza loaded with salami, green chili, ricotta, artichoke, olives, and cherry tomatoes."
+    },
+    {
+      "id": 27,
+      "name": "Spinach Pesto Pizza",
+      "filename": "spin_pesto.webp",
+      "description": "Fresh pizza topped with spinach, pesto sauce, artichoke, tomato, and garlic cloves."
+    },
+    {
+      "id": 28,
+      "name": "Spinach Feta Pizza",
+      "filename": "spinach_fet.webp",
+      "description": "Healthy spinach and feta pizza with mushrooms and red onion."
+    },
+    {
+      "id": 29,
+      "name": "Spinach Supreme Pizza",
+      "image": "spinach_supr.webp",
+      "description": "Loaded spinach supreme pizza featuring pepperoni, tomato slices, artichoke, red onion, spinach, and parmesan."
+    },
+    {
+      "id": 2,
+      "name": "Thai Chicken",
+      "description": "A flavorful pizza topped with grilled chicken, pineapple, cherry tomatoes, onions, and spicy sauce.",
+      "image": "thai_ckn.webp",
+      "ingredients": [
+        "grilled chicken",
+        "pineapple",
+        "cherry tomatoes",
+        "onions",
+        "spicy sauce"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Greek",
+      "description": "A Mediterranean inspired pizza featuring cubes of feta cheese, black olives, tomatoes, red onions, and seasoned beef.",
+      "image": "/mnt/data/the_greek.webp",
+      "ingredients": [
+        "feta cheese",
+        "black olives",
+        "tomatoes",
+        "red onions",
+        "seasoned beef"
+      ],
+      "type": "meat"
+    },
+    {
+      "id": 1,
+      "name": "Veggie Delight",
+      "description": "A delicious vegetarian pizza loaded with spinach, mushrooms, tomatoes, broccoli, onions, and olives.",
+      "image": "/mnt/data/veggie_veg.webp",
+      "ingredients": [
+        "spinach",
+        "mushrooms",
+        "tomatoes",
+        "broccoli",
+        "onions",
+        "olives"
+      ],
+      "type": "vegetarian"
+    }
+  ]
+}
