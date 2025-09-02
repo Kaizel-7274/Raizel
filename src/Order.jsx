@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import Pizza from "./Pizza";
 import Cart from "./Cart";
 
-// feel free to change en-US / USD to your locale
+// feel free to change en-UK / KES to your locale
 const intl = new Intl.NumberFormat("en-UK", {
   style: "currency",
   currency: "KES",
+  minimumFractionDigits: 2,
 });
 
 export default function Order() {
