@@ -2,7 +2,7 @@ const intl = new Intl.NumberFormat("en-UK", {
   style: "currency",
   currency: "KES",
   maximumFractionDigits: 2,
-});
+})
 
 export default function Cart({ cart, checkout }) {
   let total = 0;
