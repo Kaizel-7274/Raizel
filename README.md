@@ -15,5 +15,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kaizel-7274&show_icons=true&theme=dark#gh-dark-mode-only&locale=en" alt="kaizel-7274" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kaizel-7274&theme=dark#gh-dark-mode-only"</p>
 
